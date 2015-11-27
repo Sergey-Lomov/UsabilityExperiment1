@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  Step1Controller.h
 //  UsabilityExperiment1
 //
 //  Created by Sergey Lomov on 11/26/15.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface Step1Controller : UITableViewController
 
 @end
-
