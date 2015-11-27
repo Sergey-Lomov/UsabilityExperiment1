@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9060" systemVersion="14F1021" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="6ij-WQ-cKW">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9060" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="6ij-WQ-cKW">
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
     </dependencies>
     <scenes>
@@ -254,7 +253,7 @@ Card infomation</string>
                                                     </connections>
                                                 </button>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3B4-sx-qrN">
-                                                    <rect key="frame" x="529" y="7" width="68" height="30"/>
+                                                    <rect key="frame" x="524" y="7" width="68" height="30"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="68" id="4YW-J3-nHV"/>
                                                         <constraint firstAttribute="height" constant="30" id="l7r-T9-1j1"/>
@@ -267,7 +266,7 @@ Card infomation</string>
                                             </subviews>
                                             <constraints>
                                                 <constraint firstItem="Tkg-79-Abt" firstAttribute="leading" secondItem="Ezd-cS-Zt3" secondAttribute="leading" constant="8" id="2qI-A6-f0R"/>
-                                                <constraint firstAttribute="trailing" secondItem="3B4-sx-qrN" secondAttribute="trailing" constant="3" id="5Ic-U0-5gL"/>
+                                                <constraint firstAttribute="trailing" secondItem="3B4-sx-qrN" secondAttribute="trailing" constant="8" id="5Ic-U0-5gL"/>
                                                 <constraint firstItem="3B4-sx-qrN" firstAttribute="centerY" secondItem="Ezd-cS-Zt3" secondAttribute="centerY" id="ovd-Wt-W8K"/>
                                                 <constraint firstItem="Tkg-79-Abt" firstAttribute="centerY" secondItem="Ezd-cS-Zt3" secondAttribute="centerY" id="vr1-UE-Y4C"/>
                                             </constraints>
@@ -283,6 +282,10 @@ Card infomation</string>
                     </tableView>
                     <navigationItem key="navigationItem" id="ihV-Bm-r3N"/>
                     <connections>
+                        <outlet property="cardNumberField" destination="LVo-6H-6rx" id="rEX-Wf-6KY"/>
+                        <outlet property="cvvField" destination="EdP-gt-jrk" id="xtE-o7-EAY"/>
+                        <outlet property="expiretaionMonthField" destination="yIp-kL-wwn" id="f0U-HL-g1b"/>
+                        <outlet property="expiretaionYearField" destination="5mO-Rx-yia" id="2qT-O3-MOc"/>
                         <outlet property="headerLabel" destination="NVW-AT-HNj" id="Hdt-dg-ysx"/>
                     </connections>
                 </tableViewController>
@@ -477,7 +480,7 @@ Address information</string>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hFe-YW-QdJ">
-                                                    <rect key="frame" x="250.5" y="7" width="99" height="30"/>
+                                                    <rect key="frame" x="251" y="7" width="99" height="30"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="99" id="Izd-lu-cYs"/>
                                                         <constraint firstAttribute="height" constant="30" id="m0L-l4-TX2"/>
