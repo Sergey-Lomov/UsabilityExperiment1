@@ -11,6 +11,8 @@
 
 @interface Step2Controller () <CardIOPaymentViewControllerDelegate>
 
+@property (nonatomic, weak) IBOutlet UILabel *headerLabel;
+
 @end
 
 @implementation Step2Controller
@@ -19,6 +21,11 @@
     [super viewDidLoad];
     
     [CardIOUtilities preload];
+    
+    self.headerLabel.alpha = 0;
+    [UIView animateWithDuration:1.0 animations:^(void) {
+        self.headerLabel.alpha = 1;
+    }];
 }
 
 - (IBAction)presentCardScaner:(id)sender {

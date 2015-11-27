@@ -7,25 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8E49B7041C07A0B30071DCA7 /* Step2Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E49B7031C07A0B30071DCA7 /* Step2Controller.m */; };
+		8E49B7071C07A84E0071DCA7 /* Step1Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E49B7061C07A84E0071DCA7 /* Step1Controller.m */; };
+		8E49B70A1C07ABB70071DCA7 /* Step3Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E49B7091C07ABB70071DCA7 /* Step3Controller.m */; };
+		8E49B70D1C07AD7F0071DCA7 /* MapController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E49B70C1C07AD7F0071DCA7 /* MapController.m */; };
+		8E49B7101C07AF090071DCA7 /* MapAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E49B70F1C07AF090071DCA7 /* MapAnnotation.m */; };
+		8E49B7121C07B0B00071DCA7 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E49B7111C07B0B00071DCA7 /* MapKit.framework */; };
+		8E49B7171C07B85F0071DCA7 /* LongPressIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E49B7161C07B85E0071DCA7 /* LongPressIcon.png */; };
 		8E7198A31C077DF100813B8B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E7198A21C077DF100813B8B /* main.m */; };
 		8E7198A61C077DF100813B8B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E7198A51C077DF100813B8B /* AppDelegate.m */; };
-		8E7198A91C077DF100813B8B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E7198A81C077DF100813B8B /* ViewController.m */; };
 		8E7198AC1C077DF100813B8B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E7198AA1C077DF100813B8B /* Main.storyboard */; };
 		8E7198AE1C077DF100813B8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E7198AD1C077DF100813B8B /* Assets.xcassets */; };
 		8E7198B11C077DF100813B8B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E7198AF1C077DF100813B8B /* LaunchScreen.storyboard */; };
+		B14AC3619CF1B0A5DE2FC41D /* libPods-UsabilityExperiment1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 757F05A53BB3FBCAD4B20E2E /* libPods-UsabilityExperiment1.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		71CB209A3AC84E7B0CEECEE4 /* Pods-UsabilityExperiment1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UsabilityExperiment1.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UsabilityExperiment1/Pods-UsabilityExperiment1.debug.xcconfig"; sourceTree = "<group>"; };
+		757F05A53BB3FBCAD4B20E2E /* libPods-UsabilityExperiment1.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-UsabilityExperiment1.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E49B7021C07A0B30071DCA7 /* Step2Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Step2Controller.h; sourceTree = "<group>"; };
+		8E49B7031C07A0B30071DCA7 /* Step2Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Step2Controller.m; sourceTree = "<group>"; };
+		8E49B7051C07A84E0071DCA7 /* Step1Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Step1Controller.h; sourceTree = "<group>"; };
+		8E49B7061C07A84E0071DCA7 /* Step1Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Step1Controller.m; sourceTree = "<group>"; };
+		8E49B7081C07ABB70071DCA7 /* Step3Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Step3Controller.h; sourceTree = "<group>"; };
+		8E49B7091C07ABB70071DCA7 /* Step3Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Step3Controller.m; sourceTree = "<group>"; };
+		8E49B70B1C07AD7F0071DCA7 /* MapController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapController.h; sourceTree = "<group>"; };
+		8E49B70C1C07AD7F0071DCA7 /* MapController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapController.m; sourceTree = "<group>"; };
+		8E49B70E1C07AF090071DCA7 /* MapAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapAnnotation.h; sourceTree = "<group>"; };
+		8E49B70F1C07AF090071DCA7 /* MapAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapAnnotation.m; sourceTree = "<group>"; };
+		8E49B7111C07B0B00071DCA7 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		8E49B7161C07B85E0071DCA7 /* LongPressIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = LongPressIcon.png; path = UsabilityExperiment1/Resources/LongPressIcon.png; sourceTree = "<group>"; };
 		8E71989E1C077DF100813B8B /* UsabilityExperiment1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UsabilityExperiment1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E7198A21C077DF100813B8B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8E7198A41C077DF100813B8B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8E7198A51C077DF100813B8B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		8E7198A71C077DF100813B8B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		8E7198A81C077DF100813B8B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		8E7198AB1C077DF100813B8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8E7198AD1C077DF100813B8B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8E7198B01C077DF100813B8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8E7198B21C077DF100813B8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7A923D092D5FB964ED1D1B2 /* Pods-UsabilityExperiment1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UsabilityExperiment1.release.xcconfig"; path = "Pods/Target Support Files/Pods-UsabilityExperiment1/Pods-UsabilityExperiment1.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +53,39 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E49B7121C07B0B00071DCA7 /* MapKit.framework in Frameworks */,
+				B14AC3619CF1B0A5DE2FC41D /* libPods-UsabilityExperiment1.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		642A5C89D709FF2EB8C7283D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8E49B7111C07B0B00071DCA7 /* MapKit.framework */,
+				757F05A53BB3FBCAD4B20E2E /* libPods-UsabilityExperiment1.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8E49B7131C07B7F60071DCA7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8E49B7161C07B85E0071DCA7 /* LongPressIcon.png */,
+			);
+			name = Resources;
+			path = ..;
+			sourceTree = "<group>";
+		};
 		8E7198951C077DF100813B8B = {
 			isa = PBXGroup;
 			children = (
 				8E7198A01C077DF100813B8B /* UsabilityExperiment1 */,
 				8E71989F1C077DF100813B8B /* Products */,
+				A00DC5BBAF8E4A10C2CE2F38 /* Pods */,
+				642A5C89D709FF2EB8C7283D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,13 +101,22 @@
 			isa = PBXGroup;
 			children = (
 				8E7198A41C077DF100813B8B /* AppDelegate.h */,
+				8E49B7051C07A84E0071DCA7 /* Step1Controller.h */,
+				8E49B7061C07A84E0071DCA7 /* Step1Controller.m */,
+				8E49B7021C07A0B30071DCA7 /* Step2Controller.h */,
+				8E49B7031C07A0B30071DCA7 /* Step2Controller.m */,
+				8E49B7081C07ABB70071DCA7 /* Step3Controller.h */,
+				8E49B7091C07ABB70071DCA7 /* Step3Controller.m */,
 				8E7198A51C077DF100813B8B /* AppDelegate.m */,
-				8E7198A71C077DF100813B8B /* ViewController.h */,
-				8E7198A81C077DF100813B8B /* ViewController.m */,
+				8E49B70E1C07AF090071DCA7 /* MapAnnotation.h */,
+				8E49B70F1C07AF090071DCA7 /* MapAnnotation.m */,
+				8E49B70B1C07AD7F0071DCA7 /* MapController.h */,
+				8E49B70C1C07AD7F0071DCA7 /* MapController.m */,
 				8E7198AA1C077DF100813B8B /* Main.storyboard */,
 				8E7198AD1C077DF100813B8B /* Assets.xcassets */,
 				8E7198AF1C077DF100813B8B /* LaunchScreen.storyboard */,
 				8E7198B21C077DF100813B8B /* Info.plist */,
+				8E49B7131C07B7F60071DCA7 /* Resources */,
 				8E7198A11C077DF100813B8B /* Supporting Files */,
 			);
 			path = UsabilityExperiment1;
@@ -79,6 +130,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		A00DC5BBAF8E4A10C2CE2F38 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				71CB209A3AC84E7B0CEECEE4 /* Pods-UsabilityExperiment1.debug.xcconfig */,
+				F7A923D092D5FB964ED1D1B2 /* Pods-UsabilityExperiment1.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +146,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8E7198B51C077DF100813B8B /* Build configuration list for PBXNativeTarget "UsabilityExperiment1" */;
 			buildPhases = (
+				38B3AD91F2D8B1C1BE7A72FB /* Check Pods Manifest.lock */,
 				8E71989A1C077DF100813B8B /* Sources */,
 				8E71989B1C077DF100813B8B /* Frameworks */,
 				8E71989C1C077DF100813B8B /* Resources */,
+				177532AE4554DC4660F7CDDD /* Embed Pods Frameworks */,
+				B720F37514927613B7CE03EE /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -110,6 +173,7 @@
 				TargetAttributes = {
 					8E71989D1C077DF100813B8B = {
 						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 5L27B35HEP;
 					};
 				};
 			};
@@ -138,20 +202,73 @@
 			files = (
 				8E7198B11C077DF100813B8B /* LaunchScreen.storyboard in Resources */,
 				8E7198AE1C077DF100813B8B /* Assets.xcassets in Resources */,
+				8E49B7171C07B85F0071DCA7 /* LongPressIcon.png in Resources */,
 				8E7198AC1C077DF100813B8B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		177532AE4554DC4660F7CDDD /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UsabilityExperiment1/Pods-UsabilityExperiment1-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		38B3AD91F2D8B1C1BE7A72FB /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B720F37514927613B7CE03EE /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UsabilityExperiment1/Pods-UsabilityExperiment1-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8E71989A1C077DF100813B8B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8E7198A91C077DF100813B8B /* ViewController.m in Sources */,
 				8E7198A61C077DF100813B8B /* AppDelegate.m in Sources */,
+				8E49B7071C07A84E0071DCA7 /* Step1Controller.m in Sources */,
 				8E7198A31C077DF100813B8B /* main.m in Sources */,
+				8E49B70A1C07ABB70071DCA7 /* Step3Controller.m in Sources */,
+				8E49B70D1C07AD7F0071DCA7 /* MapController.m in Sources */,
+				8E49B7041C07A0B30071DCA7 /* Step2Controller.m in Sources */,
+				8E49B7101C07AF090071DCA7 /* MapAnnotation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,23 +378,33 @@
 		};
 		8E7198B61C077DF100813B8B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71CB209A3AC84E7B0CEECEE4 /* Pods-UsabilityExperiment1.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = UsabilityExperiment1/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Rozdoum.UsabilityExperiment1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rozdoum.UsabilityExperiment1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
 		8E7198B71C077DF100813B8B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7A923D092D5FB964ED1D1B2 /* Pods-UsabilityExperiment1.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = UsabilityExperiment1/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Rozdoum.UsabilityExperiment1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rozdoum.UsabilityExperiment1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -300,6 +427,7 @@
 				8E7198B71C077DF100813B8B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

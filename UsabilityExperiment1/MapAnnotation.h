@@ -6,8 +6,11 @@
 //  Copyright © 2015 Sergey Lomov. All rights reserved.
 //
 
+#import <MapKit/MapKit.h>
 #import <Foundation/Foundation.h>
 
-@interface MapAnnotation : NSObject
+@interface MapAnnotation : NSObject <MKAnnotation>
+
+@property (nonatomic, assign) CLLocationCoordinate2D coordinate;
 
 @end

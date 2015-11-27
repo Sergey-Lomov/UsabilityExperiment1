@@ -8,6 +8,21 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MapController : UIViewController
+@class MapController;
+
+@protocol MapConrollerDelegate <NSObject>
+
+@required
+- (void)mapController:(MapController *)controller didAcceptPlacemark:(CLPlacemark *)placemark;
 
 @end
+
+
+
+@interface MapController : UIViewController
+
+@property (nonatomic, weak) id<MapConrollerDelegate> delegate;
+
+@end
+
+
